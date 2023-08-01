@@ -1,0 +1,35 @@
+
+:root {
+  --header-height: 64px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* margin: var(--header-height) 0 0 0 !important; */
+  transition: .4s;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+  margin: auto !important;
+}
+
+.section {
+  padding: 2rem 3rem;
+}
+
+
+
+ /* by j3su  */
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
